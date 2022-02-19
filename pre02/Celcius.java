@@ -1,21 +1,24 @@
-import java.util.Scanner;
- 
-class Celsius 
+import java.io.*;
+import java.util.*;
+
+
+class Celcius 
 {
     
  public static void main(String[] args)
  {
- // declaring avriables
+ final double F_TO_C_FACTOR = 1.8;
+ double tempC;
+ double tempF;
  
-        double f,c;  // declaring variables..
-        Scanner input = new Scanner(System.in);
- 
-        System.out.print("Input value in Celsius: ");
-        c = input.nextDouble();  // taking values from user...
- 
- f = (c * 1.8) + 32;  // Calculating value...
- // Printing the result.
- System.out.println("value of temperature in fahrenheit:"+ f);
+ Scanner in =new Scanner(System.in);
+
+ System.out.print ("Enter the temperature in degrees Celcius...");
+ tempC = in.nextDouble ();
+
+ tempF = tempC * F_TO_C_FACTOR + 32;
+
+ System.out.printf("%.2f C = %.2f F\n", tempC, tempF);
  
      
  }

@@ -1,3 +1,7 @@
+import java.io.*;
+import java.util.*;
+
+
 public class Date{
     public static void main(String[] args) {
 
@@ -10,13 +14,13 @@ public class Date{
         String firstLine = ("Hello, again");
         //System.out.println(firstLine);"
         System.out.println("The current date is");
-        System.out.println(day);
-        System.out.println(",");
-        System.out.println(month);
-        System.out.println(date);
-        System.out.println(",");
-        System.out.println(year);
-        System.out.println(".");
+        System.out.print(day);
+        System.out.print(",");
+        System.out.print(month);
+        System.out.print(date);
+        System.out.print(",");
+        System.out.print(year);
+        System.out.print(".");
         //System.out.println(day, month, date, year);
 
     }

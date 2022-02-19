@@ -1,9 +1,12 @@
+import java.io.*;
+import java.util.*;
+
 import java.util.Scanner;
 public class Guess {
     public static void main(String[] args) {
         
 double g, n; 
-int number = ;
+int number = 4;
 Scanner input = new Scanner(System.in);
 
 System.out.println("I'm thinking of a number between 1 and 100 ");
