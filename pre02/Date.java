@@ -13,14 +13,14 @@ public class Date{
 
         String firstLine = ("Hello, again");
         //System.out.println(firstLine);"
-        System.out.println("The current date is");
+        System.out.print("The current date is ");
         System.out.print(day);
-        System.out.print(",");
+        System.out.print(", ");
         System.out.print(month);
         System.out.print(date);
-        System.out.print(",");
+        System.out.print(", ");
         System.out.print(year);
-        System.out.print(".");
+        System.out.println(".");
         //System.out.println(day, month, date, year);
 
     }
