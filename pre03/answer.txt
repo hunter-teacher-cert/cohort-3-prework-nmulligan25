@@ -11,8 +11,7 @@ wug.
 2. Draw a stack diagram that shows the state of the program the first time ping is invoked.
 
 
-main   zoop[baffle, You wugga, ping]
-ping   .
+See PDF Pre03Q2
 
 
 

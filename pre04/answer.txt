@@ -1,6 +1,8 @@
 1. Logical operators can simplify nested conditional statements. For example, can you rewrite this code using a single if statement?
 
-
+if (0 > x && x < 10){
+  System.out.println("postitive single digit number.");
+}
 
 
 2. Draw a stack diagram that shows the state of the program the second time zoop is invoked.
