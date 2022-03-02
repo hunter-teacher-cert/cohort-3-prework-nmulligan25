@@ -1,10 +1,11 @@
 import java.io.*;
 import java.util.*;
 
-public class Guess {
-    public static void main(String[] args) {
+class Guess {
+
+  public static void main(String[] args) {
         
-double g, n; 
+final double g, n; 
 int number = 24;
 int guess = 14;
 Scanner input = new Scanner(System.in);
