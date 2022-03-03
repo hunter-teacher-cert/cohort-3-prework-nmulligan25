@@ -14,7 +14,7 @@ public static void countdown(int n) {
   
   }
   public static void main(String[] args){
-    countdown(9);
+    countdown(99);
     
     }
 }
